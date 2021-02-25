@@ -6,25 +6,25 @@ export default function Projects() {
   const projects = [
     {
       name: 'GamerViews',
-      image: 'portfolio/images/gamerviews.png',
+      image: '/images/gamerviews.png',
       demo: 'https://gamerviews.herokuapp.com/',
       code: 'https://github.com/MarkBoyd14/gamerviews',
     },
     {
       name: 'Vanilla JS Todo List',
-      image: 'portfolio/images/todo-list.png',
+      image: '/images/todo-list.png',
       demo: 'https://markboyd14.github.io/todo-list/',
       code: 'https://github.com/MarkBoyd14/todo-list',
     },
     {
       name: 'Snake',
-      image: 'portfolio/images/snake.png',
+      image: '/images/snake.png',
       demo: 'https://markboyd14.github.io/snake',
       code: 'https://github.com/MarkBoyd14/snake/',
     },
     {
       name: 'Portfolio',
-      image: 'portfolio/images/portfolio.png',
+      image: '/images/portfolio.png',
       demo: 'https://markboyd14.github.io/portfolio',
       code: 'https://github.com/MarkBoyd14/portfolio',
     },

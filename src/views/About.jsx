@@ -7,11 +7,7 @@ export default function About() {
       <h3 className="section-header">Oh, Hi Mark!</h3>
       <div className="row">
         <div class="col-2 col-left">
-          <img
-            id="profile-image"
-            src="/portfolio/images/profile.jpg"
-            alt="Profile"
-          ></img>
+          <img id="profile-image" src="/images/profile.jpg" alt="Profile"></img>
         </div>
         <div class="col-2 col-right">
           <p>
