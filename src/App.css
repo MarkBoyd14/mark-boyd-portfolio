@@ -1,38 +1,250 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: rgb(24, 23, 23);
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 4rem;
+}
+
+h1,
+h2 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 a,
+h2 a {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 span {
+  color: #70e780;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 0.95rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(71, 71, 71);
+  margin: 0 auto;
+  padding: 3rem;
+  width: 70%;
+  min-height: 100px;
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  border-radius: 5px;
+  box-shadow: 3px 5px #70e780;
+  text-shadow: 1px 1px black;
+  margin-bottom: 50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.col-left {
+  padding-right: 15px;
+}
+
+.col-right {
+  padding-left: 15px;
+}
+
+.home {
+  text-align: center;
+}
+
+.home a {
+  padding: 10px;
+}
+
+.home a:hover {
+  background-color: rgb(37, 37, 37);
+  border-radius: 5px;
+}
+
+.section-header {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+  width: 100%;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.contact-link {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.contact-link:hover {
+  background-color: rgb(37, 37, 37);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.contact-link a {
+  text-decoration: none;
+}
+
+.contact-link-icon {
+  font-size: 4rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.project {
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.project-name,
+.project-btn {
+  visibility: hidden;
+}
+
+.project-btn {
+  font-size: 12px;
+  text-decoration: none;
+  background-color: rgb(71, 71, 71);
+  padding: 2px 10px;
+  border-radius: 25px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.project:hover .project-name,
+.project:hover .project-btn {
+  visibility: visible;
+}
+
+.project:hover .project-btn {
+  cursor: pointer;
+}
+
+.project-btn:hover {
+  background-color: #70e780;
+}
+
+.fa-server,
+.fa-code {
+  margin-right: 5px;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  transition: 0.2s ease-in-out;
+}
+
+.overlay:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+#profile-image {
+  width: auto;
+  height: 500px;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    margin: 50px auto;
+    padding: 2rem;
+    width: 80%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .row {
+    flex-direction: column;
+  }
+
+  .col-left,
+  .col-right {
+    padding: 0;
+  }
+
+  .col-left {
+    padding-bottom: 20px;
+  }
+
+  h1 {
+    margin: 0 auto;
+  }
+
+  .contact-link {
+    text-align: center;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projects-grid {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
