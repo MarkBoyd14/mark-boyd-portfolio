@@ -11,21 +11,27 @@ export default function Projects() {
       code: 'https://github.com/MarkBoyd14/gamerviews',
     },
     {
+      name: 'Tribute Page',
+      image: '/images/tribute-page.png',
+      demo: 'https://codepen.io/MarkBoyd/full/xxRWpap',
+      code: 'https://codepen.io/MarkBoyd/pen/xxRWpap',
+    },
+    {
+      name: 'Snake',
+      image: '/images/snake.png',
+      demo: 'https://vanilla-js-snake.herokuapp.com/',
+      code: 'https://github.com/MarkBoyd14/snake/',
+    },
+    {
       name: 'Vanilla JS Todo List',
       image: '/images/todo-list.png',
       demo: 'https://markboyd14.github.io/todo-list/',
       code: 'https://github.com/MarkBoyd14/todo-list',
     },
     {
-      name: 'Snake',
-      image: '/images/snake.png',
-      demo: 'https://markboyd14.github.io/snake',
-      code: 'https://github.com/MarkBoyd14/snake/',
-    },
-    {
       name: 'Portfolio',
       image: '/images/portfolio.png',
-      demo: 'https://markboyd14.github.io/portfolio',
+      demo: 'https://mark-boyd-portfolio.herokuapp.com/',
       code: 'https://github.com/MarkBoyd14/portfolio',
     },
   ];
