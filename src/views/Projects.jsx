@@ -13,8 +13,8 @@ export default function Projects() {
     {
       name: 'Tribute Page',
       image: '/images/tribute-page.png',
-      demo: 'https://codepen.io/MarkBoyd/full/xxRWpap',
-      code: 'https://codepen.io/MarkBoyd/pen/xxRWpap',
+      demo: 'https://markboyd14.github.io/tribute-page/',
+      code: 'https://github.com/MarkBoyd14/tribute-page',
     },
     {
       name: 'Snake',
