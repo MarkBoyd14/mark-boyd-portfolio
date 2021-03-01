@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function Header(props) {
   return (
-    <div className="header">
+    <header className="header">
       {props.width <= 960 ? <Navbar /> : null}
       <h1 className="title">
         <Link to="/">
@@ -15,6 +15,6 @@ export default function Header(props) {
         <Link to="/">Software Developer</Link>
       </h2>
       {props.width > 960 ? <Navbar /> : null}
-    </div>
+    </header>
   );
 }

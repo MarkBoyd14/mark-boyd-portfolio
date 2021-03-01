@@ -36,6 +36,7 @@
 
 .fa-bars {
   color: #fff;
+  font-size: 3rem;
 }
 
 .nav-links-mobile {
@@ -49,14 +50,14 @@
 @media screen and (max-width: 960px) {
   .navbar {
     justify-content: flex-start;
-    height: 100px;
+    height: 75px;
   }
   .nav-menu {
     display: flex;
     flex-direction: column;
     width: 100%;
     position: absolute;
-    top: 250px;
+    top: 75px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -84,8 +85,7 @@
 
   .menu-icon {
     display: flex;
-    margin-left: 20px;
-    font-size: 4rem;
+    font-size: 3rem;
     cursor: pointer;
   }
 
