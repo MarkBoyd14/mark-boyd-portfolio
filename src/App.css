@@ -200,18 +200,11 @@ p {
 }
 
 #profile-image {
-  width: auto;
-  height: 500px;
+  width: 100%;
   border: 1px solid black;
 }
 
-@media screen and (max-width: 960px) {
-  .container {
-    margin: 50px auto;
-    padding: 2rem;
-    width: 80%;
-  }
-
+@media screen and (max-width: 1400px) {
   .row {
     flex-direction: column;
   }
@@ -223,6 +216,14 @@ p {
 
   .col-left {
     padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    margin: 50px auto;
+    padding: 2rem;
+    width: 80%;
   }
 
   h1 {

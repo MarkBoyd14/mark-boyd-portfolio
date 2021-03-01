@@ -14,7 +14,12 @@ export default function Navbar() {
       <div className="menu-icon" onClick={handleClick}>
         <i className={clicked ? 'fa fa-times' : 'fa fa-bars'}></i>
       </div>
-      <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
+      <ul
+        className={
+          window.innerWidth <= 960 && clicked ? 'nav-menu active' : 'nav-menu'
+        }
+        onClick={handleClick}
+      >
         <li>
           <NavLink to="/" exact className="nav-links">
             Home
