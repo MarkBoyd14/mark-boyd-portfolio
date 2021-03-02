@@ -19,7 +19,7 @@ export default function Projects() {
     {
       name: 'Survey Form',
       image: '/images/survey-form.png',
-      demo: 'https://markboyd14.github.io/tribute-page/',
+      demo: 'https://markboyd14.github.io/survey-form/',
       code: 'https://github.com/MarkBoyd14/survey-form',
     },
     {
