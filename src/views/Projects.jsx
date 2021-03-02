@@ -17,10 +17,16 @@ export default function Projects() {
       code: 'https://github.com/MarkBoyd14/tribute-page',
     },
     {
+      name: 'Survey Form',
+      image: '/images/survey-form.png',
+      demo: 'https://markboyd14.github.io/tribute-page/',
+      code: 'https://github.com/MarkBoyd14/survey-form',
+    },
+    {
       name: 'Snake',
       image: '/images/snake.png',
       demo: 'https://vanilla-js-snake.herokuapp.com/',
-      code: 'https://github.com/MarkBoyd14/snake/',
+      code: 'https://github.com/MarkBoyd14/snake',
     },
     {
       name: 'Vanilla JS Todo List',
