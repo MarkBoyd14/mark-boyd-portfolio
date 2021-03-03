@@ -23,13 +23,13 @@
 }
 
 .nav-links:hover {
-  background-color: #70e780c7;
+  background-color: #ca2121;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
 
 .active {
-  background-color: #70e780c7;
+  background-color: #ca2121;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
@@ -79,7 +79,7 @@
   }
 
   .nav-links:hover {
-    background-color: #70e780c7;
+    background-color: #ca2121;
     border-radius: 0;
   }
 

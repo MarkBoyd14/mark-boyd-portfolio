@@ -22,12 +22,17 @@ export default function Navbar() {
       >
         <li>
           <NavLink to="/" exact className="nav-links">
-            Home
+            About
           </NavLink>
         </li>
         <li>
-          <NavLink to="/about" className="nav-links" activeClassName="active">
-            About
+          <NavLink
+            to="/resume"
+            exact
+            className="nav-links"
+            activeClassName="active"
+          >
+            Resume
           </NavLink>
         </li>
         <li>

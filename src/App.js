@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Home from './views/Home';
+import Resume from './views/Resume';
 import About from './views/About';
 import Projects from './views/Projects';
 import Contact from './views/Contact';
@@ -22,8 +22,8 @@ function App() {
       <Header width={width}></Header>
       <div className="container">
         <Switch>
-          <Route path="/about">
-            <About />
+          <Route path="/resume">
+            <Resume />
           </Route>
           <Route path="/projects">
             <Projects />
@@ -31,8 +31,8 @@ function App() {
           <Route path="/contact">
             <Contact />
           </Route>
-          <Route path="/">
-            <Home />
+          <Route path="/" exact>
+            <About />
           </Route>
         </Switch>
       </div>
