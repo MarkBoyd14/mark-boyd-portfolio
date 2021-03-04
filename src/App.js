@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Resume from './views/Resume';
-import About from './views/About';
-import Projects from './views/Projects';
-import Contact from './views/Contact';
+import Resume from './pages/Resume';
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
 import './App.css';
+import Error from './pages/Error';
 
 function App() {
   const [width, setWidth] = useState(window.innerWidth);
@@ -34,6 +35,7 @@ function App() {
           <Route path="/" exact>
             <About />
           </Route>
+          <Route component={Error} />
         </Switch>
       </div>
     </div>

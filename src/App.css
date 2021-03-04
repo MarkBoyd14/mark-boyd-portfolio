@@ -34,8 +34,25 @@ h2 {
   font-size: 2.5rem;
 }
 
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+}
+
+h6 {
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+}
+
 p {
   font-size: 0.95rem;
+}
+
+hr {
+  border: 1px solid #ca2121;
 }
 
 .container {
@@ -50,28 +67,60 @@ p {
   width: 100%;
   min-height: 100px;
   letter-spacing: 0.1rem;
-  line-height: 2rem;
+  line-height: 1.75rem;
   border-radius: 5px;
   text-shadow: 1px 1px black;
+}
+
+.section-header {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 .resume {
   text-align: center;
 }
 
-.resume a {
+.pdf-link {
   padding: 10px;
 }
 
-.resume a:hover {
+.pdf-link:hover {
   background-color: rgb(37, 37, 37);
   border-radius: 5px;
 }
 
-.section-header {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  text-align: center;
+.resume-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.resume-section {
+  text-align: left;
+  margin: 20px;
+}
+
+.resume-aside {
+  text-align: left;
+  margin: 20px;
+}
+
+.resume-list,
+.education-list,
+.reference-list {
+  margin: 20px 0;
+  font-size: 0.95rem;
+  list-style-position: outside;
+}
+
+.resume-list li {
+  margin-left: 1rem;
+}
+
+.education-list li,
+.reference-list li {
+  list-style: none;
 }
 
 .contact {
