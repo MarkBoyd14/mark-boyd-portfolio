@@ -73,64 +73,64 @@ export default function Resume() {
               </li>
             </ul>
           </section>
-          <section className="resume-section">
-            <h4>References</h4>
-            <hr />
-            <ul className="reference-list">
-              <li>
-                <p>David Sopuch - CEO - Avetti Commerce</p>
-                <a href="tel:705-797-2105p3551">705-797-2105 ext. 3551</a>
-              </li>
-              <li style={{ paddingTop: '10px' }}>
-                <p>Andrew Arkwell - Director of Development - Siva Creative</p>
-                <a href="tel:705-717-4027">705-717-4027</a>
-              </li>
-            </ul>
-          </section>
         </div>
-        <div>
-          <aside className="resume-aside">
-            <h4>Education</h4>
-            <hr />
-            <ul className="education-list">
-              <li>Georgian College</li>
-              <li>Computer Programming Diploma</li>
-              <li>Barrie, ON</li>
-            </ul>
-            <ul className="education-list">
-              <li>Trent University</li>
-              <li>Bachelor of Science - Biology</li>
-              <li>Peterborough, ON</li>
-            </ul>
-            <h4>Key Skills</h4>
-            <hr />
-            <ul className="resume-list">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Bootstrap</li>
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Node.js</li>
-              <li>Gatsby</li>
-              <li>Express</li>
-              <li>REST</li>
-              <li>GraphQL</li>
-              <li>Java</li>
-              <li>MongoDB</li>
-              <li>MySQL</li>
-              <li>PostgreSQL</li>
-              <li>Wordpress</li>
-              <li>Github</li>
-              <li>AWS</li>
-            </ul>
-            <h4>Certificates & Awards</h4>
-            <hr />
-            <ul className="resume-list">
-              <li>Dean's List</li>
-              <li>Responsive Web Design Certification - FCC (in progress)</li>
-            </ul>
-          </aside>
-        </div>
+
+        <aside className="resume-aside">
+          <h4>Education</h4>
+          <hr />
+          <ul className="education-list">
+            <li>Georgian College</li>
+            <li>Computer Programming Diploma</li>
+            <li>Barrie, ON</li>
+          </ul>
+          <ul className="education-list">
+            <li>Trent University</li>
+            <li>Bachelor of Science - Biology</li>
+            <li>Peterborough, ON</li>
+          </ul>
+          <h4>Key Skills</h4>
+          <hr />
+          <ul className="resume-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Gatsby</li>
+            <li>Express</li>
+            <li>REST</li>
+            <li>GraphQL</li>
+            <li>Java</li>
+            <li>MongoDB</li>
+            <li>MySQL</li>
+            <li>PostgreSQL</li>
+            <li>Wordpress</li>
+            <li>Github</li>
+            <li>AWS</li>
+          </ul>
+          <h4>Certificates & Awards</h4>
+          <hr />
+          <ul className="resume-list">
+            <li>Dean's List</li>
+            <li>Responsive Web Design Certification - FCC (in progress)</li>
+          </ul>
+        </aside>
+
+        <section className="resume-section">
+          <h4>References</h4>
+          <hr />
+          <ul className="reference-list">
+            <li>
+              <p>David Sopuch - CEO - Avetti Commerce</p>
+              <a href="tel:705-797-2105p3551">705-797-2105 ext. 3551</a>
+            </li>
+            <li style={{ paddingTop: '10px' }}>
+              <p>Andrew Arkwell - Director of Development - Siva Creative</p>
+              <a href="tel:705-717-4027">705-717-4027</a>
+            </li>
+          </ul>
+        </section>
       </div>
 
       <a
