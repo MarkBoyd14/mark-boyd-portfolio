@@ -95,18 +95,19 @@ export default function Resume() {
             <li>CSS</li>
             <li>Bootstrap</li>
             <li>JavaScript</li>
+            <li>Java</li>
             <li>React</li>
+            <li>Styled Components</li>
             <li>Node.js</li>
-            <li>Gatsby</li>
             <li>Express</li>
+            <li>Gatsby</li>
             <li>REST</li>
             <li>GraphQL</li>
-            <li>Java</li>
             <li>MongoDB</li>
             <li>MySQL</li>
             <li>PostgreSQL</li>
             <li>Wordpress</li>
-            <li>Github</li>
+            <li>Git/Github</li>
             <li>AWS</li>
           </ul>
           <h4>Certificates & Awards</h4>
