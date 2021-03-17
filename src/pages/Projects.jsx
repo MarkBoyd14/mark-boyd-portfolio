@@ -11,6 +11,24 @@ export default function Projects() {
       code: 'https://github.com/MarkBoyd14/gamerviews',
     },
     {
+      name: 'Pokedex',
+      image: '/images/pokedex.png',
+      demo: 'https://pokeapi-pokedex-react.herokuapp.com/',
+      code: 'https://github.com/MarkBoyd14/pokedex',
+    },
+    {
+      name: 'Vanilla JS Todo List',
+      image: '/images/todo-list.png',
+      demo: 'https://markboyd14.github.io/todo-list/',
+      code: 'https://github.com/MarkBoyd14/todo-list',
+    },
+    {
+      name: 'Snake',
+      image: '/images/snake.png',
+      demo: 'https://vanilla-js-snake.herokuapp.com/',
+      code: 'https://github.com/MarkBoyd14/snake',
+    },
+    {
       name: 'Tribute Page',
       image: '/images/tribute-page.png',
       demo: 'https://markboyd14.github.io/tribute-page/',
@@ -21,18 +39,6 @@ export default function Projects() {
       image: '/images/survey-form.png',
       demo: 'https://markboyd14.github.io/survey-form/',
       code: 'https://github.com/MarkBoyd14/survey-form',
-    },
-    {
-      name: 'Snake',
-      image: '/images/snake.png',
-      demo: 'https://vanilla-js-snake.herokuapp.com/',
-      code: 'https://github.com/MarkBoyd14/snake',
-    },
-    {
-      name: 'Vanilla JS Todo List',
-      image: '/images/todo-list.png',
-      demo: 'https://markboyd14.github.io/todo-list/',
-      code: 'https://github.com/MarkBoyd14/todo-list',
     },
     {
       name: 'Portfolio',
