@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mark-boyd-portfolio.herokuapp.com/",
+  "homepage": "https://markboyd.ca/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -22,8 +22,7 @@
     "styled-components": "^5"
   },
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "node server/server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "deploy": "aws s3 sync build/ s3://markboyd.ca --acl public-read",
     "test": "react-scripts test",
