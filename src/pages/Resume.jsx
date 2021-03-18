@@ -113,8 +113,7 @@ export default function Resume() {
           <h4>Certificates & Awards</h4>
           <hr />
           <ul className="resume-list">
-            <li>Dean's List</li>
-            <li>Responsive Web Design Certification - FCC (in progress)</li>
+            <li>Georgian College Dean's List - 87 GPA</li>
           </ul>
         </aside>
 
