@@ -1,0 +1,54 @@
+.card {
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  transition: 0.2s ease-in-out;
+}
+
+.overlay:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.card-name,
+.card-btn {
+  visibility: hidden;
+}
+
+.card-btn {
+  font-size: 12px;
+  text-decoration: none;
+  background-color: rgb(71, 71, 71);
+  padding: 2px 10px;
+  border-radius: 25px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.card:hover .card-name,
+.card:hover .card-btn {
+  visibility: visible;
+}
+
+.card:hover .card-btn {
+  cursor: pointer;
+}
+
+.card-btn:hover {
+  background-color: #ca2121;
+}
+
+.fa-server,
+.fa-code {
+  margin-right: 5px;
+}

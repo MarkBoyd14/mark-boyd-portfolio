@@ -25,10 +25,8 @@ export default function About() {
           I can apply to future projects. Currently, I am very comfortable
           working with HTML, CSS, and JavaScript and am very good at building
           web applications that are pixel perfect to the design requirements.
-          Over the last year, I have mostly focused on learning React as it the
-          best JavaScript library in my opinion and it is a skill that is in
-          high demand. I have also spent some time learning how to use
-          JavaScript on the back-end and working with different databases. I am
+          Over the last year, I have mostly focused on learning React, Node.js,
+          Express, and different databases such as MySQL and MongoDB. I am
           always open to learning new techs to improve my skills and stay up to
           date with the latest industry trends. In my spare time, I enjoy
           playing video games, watching movies or youtube, and socializing with
@@ -36,12 +34,11 @@ export default function About() {
         </p>
         <br />
         <p>
-          I am an introvert through and through although I tend to get along
-          well with everyone I meet. I consider myself to be a very fast learner
-          and a hard worker. I always try my best and try to learn from my
-          mistakes. If you think I would be a good fit for your team, you can
-          contact me through any of the methods provided on the contact page. I
-          look forward to speaking with you!
+          I consider myself to be a very fast learner and a hard worker. I
+          always try my best and use every challenge as an opportunity to learn.
+          If you think I would be a good fit for your team, you can contact me
+          through any of the methods provided on the contact page. I look
+          forward to speaking with you!
         </p>
       </div>
     </section>

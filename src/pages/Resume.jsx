@@ -78,12 +78,12 @@ export default function Resume() {
         <aside className="resume-aside">
           <h4>Education</h4>
           <hr />
-          <ul className="education-list">
+          <ul className="aside-list">
             <li>Georgian College</li>
             <li>Computer Programming Diploma</li>
             <li>Barrie, ON</li>
           </ul>
-          <ul className="education-list">
+          <ul className="aside-list">
             <li>Trent University</li>
             <li>Bachelor of Science - Biology</li>
             <li>Peterborough, ON</li>
@@ -120,7 +120,7 @@ export default function Resume() {
         <section className="resume-section">
           <h4>References</h4>
           <hr />
-          <ul className="reference-list">
+          <ul id="reference-list">
             <li>
               <p>David Sopuch - CEO - Avetti Commerce</p>
               <a href="tel:705-797-2105p3551">705-797-2105 ext. 3551</a>

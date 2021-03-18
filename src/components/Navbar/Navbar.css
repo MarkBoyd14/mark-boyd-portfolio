@@ -12,8 +12,8 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 70vw;
-  justify-content: space-around;
+  width: 70%;
+  justify-content: space-between;
 }
 
 .nav-links {
@@ -87,6 +87,7 @@
     display: flex;
     font-size: 3rem;
     cursor: pointer;
+    margin-left: 1rem;
   }
 
   .fa-times {

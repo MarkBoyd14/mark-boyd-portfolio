@@ -20,6 +20,8 @@ body {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgb(71, 71, 71);
+
+  border: 1px solid black;
 }
 
 /* Handle on hover */

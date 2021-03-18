@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import Resume from './pages/Resume';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import './App.css';
 import Error from './pages/Error';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [width, setWidth] = useState(window.innerWidth);
@@ -41,6 +42,7 @@ function App() {
           <Route component={Error} />
         </Switch>
       </div>
+      <Footer />
     </div>
   );
 }

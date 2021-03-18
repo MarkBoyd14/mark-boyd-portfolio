@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from '../components/Project';
+import Card from '../components/Card/Card';
 
 export default function Projects() {
   document.title = 'Mark Boyd - Projects';
@@ -48,12 +48,12 @@ export default function Projects() {
     },
   ];
   return (
-    <section className="projects">
-      <h4 className="section-header">Projects</h4>
-      <div className="projects-grid">
+    <section id="projects">
+      <h3 className="section-header">Projects</h3>
+      <div className="card-grid">
         {projects.map((project) => {
           return (
-            <Project
+            <Card
               key={project.name}
               name={project.name}
               image={project.image}

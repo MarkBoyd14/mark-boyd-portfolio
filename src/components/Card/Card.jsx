@@ -1,17 +1,18 @@
 import React from 'react';
+import './Card.css';
 
-export default function Project(props) {
+export default function Card(props) {
   return (
     <div
-      className="project"
+      className="card"
       style={{
         backgroundImage: `url(${props.image})`,
       }}
     >
       <div className="overlay">
-        <h4 className="project-name">{props.name}</h4>
+        <h4 className="card-name">{props.name}</h4>
         <a
-          className="project-btn"
+          className="card-btn"
           href={props.demo}
           target="_blank"
           rel="noopener noreferrer"
@@ -20,7 +21,7 @@ export default function Project(props) {
           Demo
         </a>
         <a
-          className="project-btn"
+          className="card-btn"
           href={props.code}
           target="_blank"
           rel="noopener noreferrer"

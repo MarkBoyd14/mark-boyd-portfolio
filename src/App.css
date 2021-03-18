@@ -7,31 +7,7 @@
 }
 
 body {
-  margin: 0 1rem;
   background-color: rgb(24, 23, 23);
-}
-
-h1 {
-  margin-top: 50px;
-  font-size: 4rem;
-}
-
-h1,
-h2 {
-  text-align: center;
-}
-
-h1 a,
-h2 a {
-  text-decoration: none;
-}
-
-h1 span {
-  color: #ca2121;
-}
-
-h2 {
-  font-size: 2.5rem;
 }
 
 h4 {
@@ -63,9 +39,7 @@ hr {
   background-color: rgb(71, 71, 71);
   margin: 0 auto 50px auto;
   padding: 3rem;
-  max-width: 1200px;
-  width: 100%;
-  min-height: 100px;
+  max-width: 70%;
   letter-spacing: 0.1rem;
   line-height: 1.75rem;
   border-radius: 5px;
@@ -80,15 +54,6 @@ hr {
 
 .resume {
   text-align: center;
-}
-
-.pdf-link {
-  padding: 10px;
-}
-
-.pdf-link:hover {
-  background-color: rgb(37, 37, 37);
-  border-radius: 5px;
 }
 
 .resume-grid {
@@ -107,8 +72,8 @@ hr {
 }
 
 .resume-list,
-.education-list,
-.reference-list {
+.aside-list,
+#reference-list {
   margin: 20px 0;
   font-size: 0.95rem;
   list-style-position: outside;
@@ -118,9 +83,35 @@ hr {
   margin-left: 1rem;
 }
 
-.education-list li,
-.reference-list li {
+.aside-list li,
+#reference-list li {
   list-style: none;
+}
+
+.pdf-link {
+  padding: 10px;
+}
+
+.pdf-link:hover {
+  background-color: rgb(37, 37, 37);
+  border-radius: 5px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+.contact {
+  text-align: center;
+  width: 100%;
 }
 
 #contact-form {
@@ -154,7 +145,6 @@ hr {
 textarea {
   min-height: 120px;
   width: 100%;
-
   resize: vertical;
 }
 
@@ -165,27 +155,22 @@ textarea {
   padding: 0.75rem;
   background: #ca2121;
   color: #fff;
-
   border-radius: 0.25rem;
   cursor: pointer;
   outline: none;
 }
+
 .submit-button:hover {
   background: #cf3d3d;
   cursor: pointer;
 }
 
-.contact {
-  text-align: center;
-  width: 100%;
-}
-
 .contact-links {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
-  margin-top: 20px;
+  max-width: 500px;
+  margin: 20px auto 0;
 }
 
 .contact-link {
@@ -210,87 +195,11 @@ textarea {
   font-size: 4rem;
 }
 
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
-}
-
-.projects {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.project {
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  vertical-align: middle;
-  border-radius: 5px;
-}
-
-.project-name,
-.project-btn {
-  visibility: hidden;
-}
-
-.project-btn {
-  font-size: 12px;
-  text-decoration: none;
-  background-color: rgb(71, 71, 71);
-  padding: 2px 10px;
-  border-radius: 25px;
-  width: 100px;
-  margin-top: 10px;
-}
-
-.project:hover .project-name,
-.project:hover .project-btn {
-  visibility: visible;
-}
-
-.project:hover .project-btn {
-  cursor: pointer;
-}
-
-.project-btn:hover {
-  background-color: #ca2121;
-}
-
-.fa-server,
-.fa-code {
-  margin-right: 5px;
-}
-
-.overlay {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  width: 100%;
-  transition: 0.2s ease-in-out;
-}
-
-.overlay:hover {
-  background-color: rgba(0, 0, 0, 0.9);
-}
-
-#profile-image {
-  width: 100%;
-  border: 1px solid black;
-}
-
 @media screen and (max-width: 960px) {
-  h1 {
-    margin: 0 auto;
-  }
-
   .container {
     margin: 50px auto;
     padding: 2rem 1rem;
-    width: 100%;
+    max-width: 90%;
   }
 
   .section-header {
@@ -307,27 +216,14 @@ textarea {
     margin-bottom: 0;
   }
 
-  .contact-link {
-    text-align: center;
-  }
-
-  .contact-links {
-    flex-direction: column;
-    justify-content: space-around;
-  }
-
-  .projects-grid {
+  .card-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width: 600px) {
-  h1 {
-    margin-top: 1rem;
-    font-size: 3rem;
-  }
-  h2 {
-    font-size: 2rem;
+  h4 {
+    font-size: 1rem;
   }
 
   h5 {
@@ -344,10 +240,28 @@ textarea {
     font-size: 0.8rem;
   }
 
+  .container {
+    max-width: 100%;
+    margin: 2rem 1rem;
+    border-radius: 0;
+  }
+
   .section-header {
     font-size: 1.75rem;
   }
-  .projects-grid {
+  .card-grid {
     grid-template-columns: repeat(1, 1fr);
+  }
+  /* .contact-link {
+    text-align: center;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    justify-content: space-around;
+  } */
+
+  .contact-link-icon {
+    font-size: 2rem;
   }
 }
