@@ -143,7 +143,7 @@ export default function Contact() {
 
         <div className="contact-link">
           <a
-            href="https://www.linkedin.com/in/mark-boyd-60366117b/"
+            href="https://www.linkedin.com/in/mark-t-boyd/"
             target="_blank"
             rel="noopener noreferrer"
           >
