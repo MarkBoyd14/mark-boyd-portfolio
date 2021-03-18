@@ -79,7 +79,6 @@ export default function Contact() {
       <h3 className="section-header">Contact</h3>
       <form
         id="contact-form"
-        action="mailto:mark.boyd1414@gmail.com"
         method="post"
         encType="multipart/form-data"
         name="email-form"
