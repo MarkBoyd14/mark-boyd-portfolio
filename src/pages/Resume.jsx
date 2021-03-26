@@ -12,23 +12,29 @@ export default function Resume() {
             <hr />
             <ul className="resume-list">
               <li>
-                Aspiring full stack web developer with over 1 year of front-end
+                Aspiring full stack developer with over 1 year of front-end
                 experience
               </li>
-              <li>Excellent problem-solving and logical reasoning abilities</li>
-              <li>Great oral and written communication skills</li>
+              <li>Outstanding problem-solving and analytical skills</li>
+              <li>Excellent oral and written communication skills</li>
               <li>Proficient with HTML, CSS, and JavaScript</li>
               <li>
-                Passionate about learning JavaScript and Node.js along with
-                their modern libraries and frameworks with a focus on React
+                Passionate about learning JavaScript and it’s modern frameworks
               </li>
-              <li>Familiar with Java, C#, and PHP</li>
-              <li>Good understanding of OOP concept and best practices</li>
+              <li>Familiar with Java and C#</li>
+              <li>
+                Good understanding of functional and object-oriented programming
+                concepts and best practices
+              </li>
               <li>
                 Experience working with both SQL and NoSQL databases and writing
                 queries to perform CRUD operations
               </li>
               <li>Knowledge of HTTP methods, REST API’s, and GraphQL</li>
+              <li>
+                Highly motivated to learn new things and keep up with the latest
+                technological trends
+              </li>
             </ul>
           </section>
           <section className="resume-section">
@@ -95,20 +101,20 @@ export default function Resume() {
             <li>CSS</li>
             <li>Bootstrap</li>
             <li>JavaScript</li>
-            <li>Java</li>
             <li>React</li>
-            <li>Styled Components</li>
-            <li>Node.js</li>
-            <li>Express</li>
-            <li>Gatsby</li>
+            <li>Java</li>
+            <li>C#</li>
+            <li>JSON</li>
+            <li>APIs</li>
             <li>REST</li>
             <li>GraphQL</li>
-            <li>MongoDB</li>
+            <li>Node.js</li>
+            <li>Express</li>
             <li>MySQL</li>
-            <li>PostgreSQL</li>
-            <li>Wordpress</li>
+            <li>MongoDB</li>
             <li>Git/Github</li>
             <li>AWS</li>
+            <li>Wordpress</li>
           </ul>
           <h4>Certificates & Awards</h4>
           <hr />
