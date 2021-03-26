@@ -27,10 +27,13 @@ export default function Resume() {
                 concepts and best practices
               </li>
               <li>
+                Experience integrating front-end with back-end using REST APIs
+                and GraphQL
+              </li>
+              <li>
                 Experience working with both SQL and NoSQL databases and writing
                 queries to perform CRUD operations
               </li>
-              <li>Knowledge of HTTP methods, REST API’s, and GraphQL</li>
               <li>
                 Highly motivated to learn new things and keep up with the latest
                 technological trends
