@@ -43,8 +43,8 @@ export default function Projects() {
     {
       name: 'Portfolio',
       image: '/images/portfolio.png',
-      demo: 'https://mark-boyd-portfolio.herokuapp.com/',
-      code: 'https://github.com/MarkBoyd14/portfolio',
+      demo: 'https://markboyd.ca/',
+      code: 'https://github.com/MarkBoyd14/mark-boyd-portfolio',
     },
   ];
   return (
