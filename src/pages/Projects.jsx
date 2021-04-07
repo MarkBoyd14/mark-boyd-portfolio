@@ -11,6 +11,12 @@ export default function Projects() {
       code: 'https://github.com/MarkBoyd14/gamerviews',
     },
     {
+      name: 'Spotify Player',
+      image: '/images/spotify-player.png',
+      demo: 'https://spotify-player-mb.herokuapp.com/',
+      code: 'https://github.com/MarkBoyd14/spotify-player',
+    },
+    {
       name: 'Pokedex',
       image: '/images/pokedex.png',
       demo: 'https://pokeapi-pokedex-react.herokuapp.com/',
@@ -50,6 +56,9 @@ export default function Projects() {
   return (
     <section id="projects">
       <h3 className="section-header">Projects</h3>
+      <p style={{ textAlign: 'center', paddingBottom: '20px' }}>
+        *Apps hosted on Heroku can take up to a minute to wake up*
+      </p>
       <div className="card-grid">
         {projects.map((project) => {
           return (
