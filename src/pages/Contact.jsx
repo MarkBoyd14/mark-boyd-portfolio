@@ -1,37 +1,37 @@
-import React, { useState } from 'react';
-import * as emailjs from 'emailjs-com';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import React, { useState } from "react";
+import * as emailjs from "emailjs-com";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export default function Contact() {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [phone, setPhone] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
 
   const toastifySuccess = () => {
-    toast.success('Your message has been sent. Thank you!', {
-      position: 'top-right',
+    toast.success("Your message has been sent. Thank you!", {
+      position: "top-right",
       autoClose: 5000,
       hideProgressBar: true,
       closeOnClick: true,
       pauseOnHover: true,
       draggable: false,
-      className: 'submit-feedback success',
-      toastId: 'notifyToast',
+      className: "submit-feedback success",
+      toastId: "notifyToast",
     });
   };
 
   const toastifyError = () => {
-    toast.error('There was an error sending your message.', {
-      position: 'top-right',
+    toast.error("There was an error sending your message.", {
+      position: "top-right",
       autoClose: 5000,
       hideProgressBar: true,
       closeOnClick: true,
       pauseOnHover: true,
       draggable: false,
-      className: 'submit-feedback success',
-      toastId: 'notifyToast',
+      className: "submit-feedback success",
+      toastId: "notifyToast",
     });
   };
 
@@ -40,7 +40,7 @@ export default function Contact() {
 
     let templateParams = {
       from_email: email,
-      to_name: 'service_dcf2k29',
+      to_name: "service_og3il19",
       from_name: name,
       from_phone: phone,
       from_message: message,
@@ -48,32 +48,32 @@ export default function Contact() {
 
     emailjs
       .send(
-        'service_dcf2k29',
-        'template_z6u35se',
+        "service_og3il19",
+        "template_z6u35se",
         templateParams,
-        'user_P6FRZUGEogdd7TnSW3hN7',
+        "user_P6FRZUGEogdd7TnSW3hN7"
       )
       .then(
         function (res) {
           toastifySuccess();
-          console.log('SUCCESS', res.status, res.text);
+          console.log("SUCCESS", res.status, res.text);
         },
         function (err) {
           toastifyError();
-        },
+        }
       );
 
     resetForm();
   };
 
   const resetForm = () => {
-    setName('');
-    setEmail('');
-    setPhone('');
-    setMessage('');
+    setName("");
+    setEmail("");
+    setPhone("");
+    setMessage("");
   };
 
-  document.title = 'Mark Boyd - Contact';
+  document.title = "Mark Boyd - Contact";
   return (
     <section className="contact">
       <h3 className="section-header">Contact</h3>

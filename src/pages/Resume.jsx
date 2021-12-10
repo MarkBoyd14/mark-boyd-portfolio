@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 export default function Resume() {
-  document.title = 'Mark Boyd - Resume';
+  document.title = "Mark Boyd - Resume";
   return (
     <div className="resume">
       <h3 className="section-header">Resume</h3>
@@ -17,9 +17,10 @@ export default function Resume() {
               </li>
               <li>Outstanding problem-solving and analytical skills</li>
               <li>Excellent oral and written communication skills</li>
-              <li>Proficient with HTML, CSS, and JavaScript</li>
+              <li>Proficient with HTML, CSS, and JavaScript/TypeScript</li>
               <li>
-                Passionate about learning JavaScript and it’s modern frameworks
+                • Passionate about learning JavaScript and it’s modern
+                frameworks with an emphasis on React
               </li>
               <li>Familiar with Java and C#</li>
               <li>
@@ -103,8 +104,11 @@ export default function Resume() {
             <li>HTML</li>
             <li>CSS</li>
             <li>Bootstrap</li>
+            <li>MaterialUI</li>
             <li>JavaScript</li>
+            <li>TypeScript</li>
             <li>React</li>
+            <li>Redux</li>
             <li>Java</li>
             <li>C#</li>
             <li>JSON</li>
@@ -134,7 +138,7 @@ export default function Resume() {
               <p>David Sopuch - CEO - Avetti Commerce</p>
               <a href="tel:705-797-2105p3551">705-797-2105 ext. 3551</a>
             </li>
-            <li style={{ paddingTop: '10px' }}>
+            <li style={{ paddingTop: "10px" }}>
               <p>Andrew Arkwell - Director of Development - Siva Creative</p>
               <a href="tel:705-717-4027">705-717-4027</a>
             </li>

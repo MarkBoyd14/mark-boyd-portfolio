@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 export default function About() {
-  document.title = 'Mark Boyd - About';
+  document.title = "Mark Boyd - About";
   return (
     <section className="about">
       <h3 className="section-header">About Me</h3>
@@ -9,7 +9,7 @@ export default function About() {
         <p>
           Hello and thank you for taking the time to visit my portfolio! My name
           is Mark and I am an aspiring full stack web developer residing in
-          Barrie, Ontario. I have been programming since 2018 and recently
+          Windsor, Ontario. I have been programming since 2018 and recently
           received my Computer Programming diploma from Georgian College. I also
           have a Bachelor of Science in Biology from Trent University but
           decided to make a career change that is more in line with my passions.
@@ -25,12 +25,11 @@ export default function About() {
           I can apply to future projects. Currently, I am very comfortable
           working with HTML, CSS, and JavaScript and am very good at building
           web applications that are pixel perfect to the design requirements.
-          Over the last year, I have mostly focused on learning React, Node.js,
-          Express, and different databases such as MySQL and MongoDB. I am
-          always open to learning new techs to improve my skills and stay up to
-          date with the latest industry trends. In my spare time, I enjoy
-          playing video games, watching movies or youtube, and socializing with
-          friends.
+          Over the last year, I have mostly focused on learning TypeScript,
+          React, and Redux. I am always open to learning new techs to improve my
+          skills and stay up to date with the latest industry trends. In my
+          spare time, I enjoy playing video games, watching movies or youtube,
+          and socializing with friends.
         </p>
         <br />
         <p>
