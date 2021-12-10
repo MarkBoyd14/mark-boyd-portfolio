@@ -19,8 +19,8 @@ export default function Resume() {
               <li>Excellent oral and written communication skills</li>
               <li>Proficient with HTML, CSS, and JavaScript/TypeScript</li>
               <li>
-                • Passionate about learning JavaScript and it’s modern
-                frameworks with an emphasis on React
+                Passionate about learning JavaScript and it’s modern frameworks
+                with an emphasis on React
               </li>
               <li>Familiar with Java and C#</li>
               <li>
